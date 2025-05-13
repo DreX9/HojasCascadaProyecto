@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FarmaSalud - Contacto</title>
+    <!-- Enlace al archivo CSS compilado de SASS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Font Awesome para iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header> 
+        <div class="container header-content">
+            <div class="logo"> 
+                <h1>FarmaSalud</h1>
+                <div class="logo-placeholder">
+                    <!-- Aquí puedes colocar tu imagen de logo -->
+                </div>
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="contacto.html" class="active">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="banner-contacto">
+        <div class="container">
+            <h1>Contacto</h1>
+            <p>Estamos aquí para atender tus consultas y brindarte la mejor atención</p>
+        </div>
+    </section>
+
+    <section class="contacto">
+        <div class="container">
+            <div class="contacto-wrapper">
+                <div class="contacto-info">
+                    <h2>Información de Contacto</h2>
+                    <p>Ponte en contacto con nosotros para cualquier consulta o información adicional. Estamos disponibles para ayudarte.</p>
+                    
+                    <div class="contacto-metodos">
+                        <div class="contacto-item">
+                            <div class="contacto-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contacto-text">
+                                <h3>Dirección</h3>
+                                <p>Av. Principal 123, Ciudad</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contacto-item">
+                            <div class="contacto-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contacto-text">
+                                <h3>Teléfono</h3>
+                                <p>+123 456 789</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contacto-item">
+                            <div class="contacto-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contacto-text">
+                                <h3>Email</h3>
+                                <p>info@farmasalud.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contacto-item">
+                            <div class="contacto-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contacto-text">
+                                <h3>Horario</h3>
+                                <p>Lunes a Viernes: 8:00 - 20:00</p>
+                                <p>Sábados: 9:00 - 14:00</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contacto-social">
+                        <h3>Síguenos</h3>
+                        <div class="social-icons">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contacto-form">
+                    <h2>Envíanos un Mensaje</h2>
+                    <form action="#" method="post">
+                        <div class="form-group">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" id="nombre" name="nombre" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="telefono">Teléfono</label>
+                            <input type="tel" id="telefono" name="telefono">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="asunto">Asunto</label>
+                            <input type="text" id="asunto" name="asunto" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <button type="submit" class="btn">Enviar Mensaje</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mapa">
+        <div class="container">
+            <h2 class="section-title">Encuéntranos</h2>
+            <div class="mapa-container">
+                <!-- Aquí puedes agregar un iframe con Google Maps o una imagen estática del mapa -->
+                <div class="mapa-placeholder">
+                    <img src="img/ubicacion.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="preguntas-frecuentes">
+        <div class="container">
+            <h2 class="section-title">Preguntas Frecuentes</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>¿Cómo puedo solicitar una receta?</h3>
+                    <p>Puedes traer tu receta directamente a nuestra farmacia o enviarla por correo electrónico para que la tengamos lista cuando vengas a recogerla.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>¿Tienen servicio a domicilio?</h3>
+                    <p>Sí, contamos con servicio a domicilio. Puedes realizar tu pedido por teléfono o a través de nuestra página web.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>¿Cuál es el tiempo de entrega?</h3>
+                    <p>El tiempo de entrega varía según la ubicación, pero generalmente es de 1 a 2 horas en zona urbana.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>¿Aceptan devoluciones?</h3>
+                    <p>Por razones de seguridad y salud, no aceptamos devoluciones de medicamentos. Por favor, consulta con nuestro personal antes de realizar tu compra.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-logo">
+                    <h2>FarmaSalud</h2>
+                    <p>Tu farmacia de confianza desde 2010.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="nosotros.html">Nosotros</a></li>
+                        <li><a href="productos.html">Productos</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contacto</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Av. Principal 123, Ciudad</li>
+                        <li><i class="fas fa-phone"></i> +123 456 789</li>
+                        <li><i class="fas fa-envelope"></i> info@farmasalud.com</li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Síguenos</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/emilio__ch__/"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 FarmaSalud. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
