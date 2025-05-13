@@ -376,3 +376,142 @@ footer {
     }
   }
 }
+.about-hero {
+  background: linear-gradient(rgba(46, 125, 50, 0.7), rgba(46, 125, 50, 0.7)), url('/api/placeholder/1920/400');
+  background-size: cover;
+  background-position: center;
+  color: @light-text;
+  padding: 60px 0;
+  text-align: center;
+  
+  h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  p {
+    font-size: 18px;
+    max-width: 700px;
+    margin: 0 auto;
+    opacity: 0.9;
+  }
+}
+
+.about-content {
+  padding: 70px 0;
+  background-color: @light-text;
+  
+  .about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+    
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  .about-text {
+    h2 {
+      color: @secondary-color;
+      margin-bottom: 20px;
+      font-size: 28px;
+    }
+    
+    p {
+      margin-bottom: 25px;
+      color: @gray-text;
+      line-height: 1.7;
+    }
+  }
+  
+  .about-image {
+    img {
+      border-radius: @border-radius;
+      box-shadow: @shadow;
+      width: 100%;
+    }
+  }
+}
+
+.team {
+  padding: 70px 0;
+  background-color: @light-gray;
+  
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+  }
+  
+  .team-member {
+    .card();
+    text-align: center;
+    
+    .member-image {
+      margin-bottom: 20px;
+      
+      img {
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border: 4px solid @primary-color;
+      }
+    }
+    
+    h3 {
+      color: @secondary-color;
+      margin-bottom: 5px;
+    }
+    
+    .member-role {
+      color: @primary-color;
+      font-weight: 500;
+      margin-bottom: 15px;
+    }
+    
+    p {
+      color: @gray-text;
+    }
+  }
+}
+
+.values {
+  padding: 70px 0;
+  background-color: @light-text;
+  
+  .values-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+  }
+  
+  .value-card {
+    .card();
+    text-align: center;
+    
+    .value-icon {
+      font-size: 40px;
+      margin-bottom: 15px;
+    }
+    
+    h3 {
+      color: @secondary-color;
+      margin-bottom: 15px;
+    }
+    
+    p {
+      color: @gray-text;
+    }
+  }
+}
+
+// Estilo para el enlace activo en la navegación
+nav ul li a.active {
+  color: @primary-color;
+  background-color: rgba(76, 175, 80, 0.1);
+  font-weight: bold;
+}
